@@ -4,12 +4,12 @@ import React from 'react';
 import styles from './Layout.module.scss'
 import Link from 'next/link';
 import Image from 'next/image';
-import imageTeste1 from '../../../../public/images/MaterialTeste1.jpg';
-import imageTeste2 from '../../../../public/images/MaterialTeste2.jpg';
-import tijolo from '../../../../public/images/tijolo.jpg'
-import madeira from '../../../../public/images/madeira.jpg'
-import tinta from '../../../../public/images/tinta.jpg'
-import cimento from '../../../../public/images/cimento.jpg'
+import imageTeste1 from '../../../../../public/images/MaterialTeste1.jpg';
+import imageTeste2 from '../../../../../public/images/MaterialTeste2.jpg';
+import tijolo from '../../../../../public/images/tijolo.jpg'
+import madeira from '../../../../../public/images/madeira.jpg'
+import tinta from '../../../../../public/images/tinta.jpg'
+import cimento from '../../../../../public/images/cimento.jpg'
 
 const Layout = () => (
   <>

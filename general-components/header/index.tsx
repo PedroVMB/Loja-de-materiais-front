@@ -10,7 +10,7 @@ export default function Header() {
       <nav className={styles.Link}>
         <ul>
           <li>
-            <Link href="/home">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="/produtos">Produtos</Link>

@@ -11,13 +11,6 @@ export default function Footer() {
           <p>Copyright &copy; {new Date().getFullYear()} MateiaisUI</p>
         </div>
         <div>
-          <ul className="social-icons">
-            <li><i className="fa fa-facebook"><Facebook /></i></li>
-            <li><i className="fa fa-twitter"><Twitter /></i></li>
-            <li><i className="fa fa-linkedin"><LinkedIn /></i></li>
-          </ul>
-        </div>
-        <div>
           <p>Uma alegria <em>a cada material</em></p>
         </div>
       </footer>
