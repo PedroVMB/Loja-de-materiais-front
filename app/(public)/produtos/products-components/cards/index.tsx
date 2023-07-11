@@ -1,9 +1,13 @@
 'use client';
 
+import { GetProducts } from '@/app/(public)/services/get-products';
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
-export default function CardExampleImageCard() {
+export default async function CardExampleImageCard() {
+
+  const materiais = await GetProducts();
+
   return(
     <Card>
       <Image src='/images/avatar/large/daniel.jpg' wrapped ui={false} />
