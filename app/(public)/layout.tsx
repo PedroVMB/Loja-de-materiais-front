@@ -1,5 +1,5 @@
-import Footer from "@/general-components/footer"
-import Header from "@/general-components/header"
+import Footer from "@/src/components/footer" 
+import Header from "@/src/components/header"
 
 export const metadata = {
   title: 'Next.js',

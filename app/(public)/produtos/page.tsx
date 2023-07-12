@@ -1,7 +1,9 @@
-export default function Produtos(){
-  return(
-    <>
-      <h2>Produto</h2>
-    </>
-  )
+import ProdutoPaginacao from "./products-components/paginacao";
+import ProdutoHome from "./products-components/produto-home";
+
+export default async function ProdutosPage() {
+  return<>
+    <ProdutoHome />
+    <ProdutoPaginacao />
+  </>
 }

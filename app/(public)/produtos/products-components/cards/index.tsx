@@ -1,27 +1,32 @@
 'use client';
 
-import { GetProducts } from '@/app/(public)/services/get-products';
+import { IMaterial } from '@/app/(public)/model/produto';
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
-export default async function CardExampleImageCard() {
+type Props = {
+  nome: string,
+  valor: string, 
+  descricao: string, 
+  foto: string
+}
 
-  const materiais = await GetProducts();
+export default async function ProdutoCard({nome, valor, descricao, foto}: Props) {
+
 
   return(
     <Card>
-      <Image src='/images/avatar/large/daniel.jpg' wrapped ui={false} />
+      <Image src={foto} wrapped ui={false} />
       <Card.Content>
-        <Card.Header>Daniel</Card.Header>
-        <Card.Meta>Joined in 2016</Card.Meta>
+        <Card.Header>{nome}</Card.Header>
         <Card.Description>
-          Daniel is a comedian living in Nashville.
+          {descricao}
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
         <a>
           <Icon name='user' />
-          10 Friends
+          {valor}
         </a>
       </Card.Content>
     </Card>
