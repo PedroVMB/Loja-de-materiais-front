@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <>
-      <hr />
+      
       <footer className={styles.Rodape}>
         <div>
           <p>Copyright &copy; {new Date().getFullYear()} MateriaisUI</p>

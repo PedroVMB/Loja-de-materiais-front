@@ -5,35 +5,40 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-
-    ul {
-        padding: 0;
-
-        li {
-            display: inline-block;
-            margin: 0px 5px;
-
-            i {
-                width: 36px;
-                height: 36px;
-                display: inline-block;
-                text-align: center;
-                line-height: 36px !important;
-                background-color: #fff;
-                border-radius: 50%;
-                color: #363e50;
-                transition: all 0.5s;
-            }
-        }
-    }
-
-}
-
-.link {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .Rodape ul {
+    padding: 0;
+  }
+  
+  .Rodape li {
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  
+  .Rodape li i {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px !important;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #363e50;
+    transition: all 0.5s;
+  }
+  
+  .link {
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: row;
     margin-right: 5px;
-}
-
+  }
+  
